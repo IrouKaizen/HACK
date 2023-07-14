@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACK Portfolio</title>
+    <link rel="shortcut icon" href="Images/aba.png" type="Images/png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/fd58006a36.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       
+        <div class="container">
+            <nav> 
+                <h1>HACK</h1><br>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi, je suis</p>
+                <h2>Hubert Kodjo ATSOU</h2> <br>
+                <p>Et je suis un <span class="multiple-text"></span></p>
+            </div>
+        </div>
+    </div>
+    <!--------about---------->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src= "Images/Huberto02.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+
+                        <p> Developpeur web <span>& Mobile</span>.<br />
+                            Je suis un Developpeur Front-end & Back-end. 
+                            Je suis apte en vous fournissant un code qui peut apporter des solutions à vos inquiétudes. 
+                            Je suis capable de mettre en place des interactions entre les sites web de les animés. 
+                            En plus je suis capable aussi de créer des applications qui répondent au bésoins de tout-êtres ou objets à base des nouvelles ressources technologiques et qui vous en serviront aux quotidients.<br /><br />
+                        <p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                                <p class="tab-links" onclick="opentab('education')" >Education</p>
+                            </div>
+
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Web Developer</span> <br> Générateur de sites Web & des applications web.</li>
+                                    <li><span>Mobile Developer</span><br>Developpeur d'applications Android/iOS.</li>
+                                    <li><span>Junior's Data Scientist</span><br> Développer des algorithmes & des techniques de visualisation des données.</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Data Base Administrator</span> <br> Gerer la perfomance, la sécurité et la disponibilité des données.</li>
+                                    <li><span>Data Analyst</span><br>Collecter, Analyser & traiter des données.</li>
+                                    <li><span>Network Engineer</span><br> Assurer la connectivité, la sécurité & la résolution des problèmes liés aux réseaux informatique.</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022 - 2023</span> <br> Deuxième année de licence en Génie Logiciel(Défitech).</li>
+                                    <li><span>2021 - 2022</span><br>Première année de licence en Génie Logiciel(Défitech).</li>
+                                    <li><span>2020 - 2021</span><br> Baccalauréat 2ème partie(Lycée Djagblé).</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
+        <!--------Serices---------->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Developer</h2>
+                        <p>Générer de sites Web & des applications web à base des nouvelles technologies.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>Mobile Developer</h2>
+                        <p>Développer des applications Android/iOS à base des nouvelles technologies.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Data Scientist</h2>
+                        <p>Développer des algorithmes & des techniques de visualisation des données.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <!--------Portfolio---------->
+
+                <div id="portfolio">
+                    <div class="container">
+                        <h1 class="sub-title">My Work</h1>
+                        <div class="work-list">
+                            <div class="work">
+                                <img src="Images/MusicApp.jpeg" height="100%">
+
+                                <div class="layer">
+                                    <h3>Music Application</h3>
+                                    <p>Cette application vous permet d'écouter de la musique en audio et vidéo.
+                                        Télécharger Maintenant.</p>
+                                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="Images/Social Media App.jpeg" height="100%">
+
+                                <div class="layer">
+                                    <h3>Social Media  application</h3>
+                                    <p>Cette applications vous permet de vous connecté au gens dans le monde entiers.
+                                        Télécharger Maintenant.</p>
+                                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                            <div class="work">
+                                <img src="Images/Shopp.webp" height="100%">
+
+                                <div class="layer">
+                                    <h3>Shopping Application</h3>
+                                    <p>Cette application vous permet de faire du shopping en ligne.
+                                        Télécharger Maintenant.</p>
+                                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn">See more</a>
+                    </div>
+                </div>
+
+                <!--------Contacts---------->
+                <div id="contact">
+                    <div class="container">
+                        <div class="row">
+                            <div class="contact-left">
+                                <h1 class="sub-title">Contact Me</h1>
+                                <p><i class="fa-solid fa-paper-plane"></i>Jeanhubertat@gmail.com</p>
+                                <p><i class="fa-solid fa-square-phone"></i>+228 96 67 93 43</p>
+                                <p><i class="fa-solid fa-location-dot"></i>Lomé - TOGO</p>
+                                
+                            </div>
+                            <div class="contact-right">
+                                <form>
+                                    <input type="text" name="Name" placeholder="Vôtre nom" required>
+                                    <input type="email" name="Email" placeholder="Vôtre Email" required>
+                                    <textarea name="Message" rows="6" placeholder="Vôtre Message"></textarea>
+                                    <button type="submit" class="btn btn2">Envoyer</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closemenu(){
+                sidemeu.style.right = "-200px";
+            }
+
+        </script>
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="JS/javPort.js"></script>
+
+        <footer>
+
+            <div class="footer-content">
+                <img src="Images/Programe_new.jpg" width="8%">
+                <h3>PROGRA-ME</h3>
+                <p>Explorez de nouveaux horizons numériques avec PROGRA-ME : Conception, Développement, Excellence.</p>
+                <ul class="socials">
+                    <li> <a href="https://www.facebook.com/kodjohubert.atsou"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/kodjhack"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/hubert-atsou-9a1618259"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.credly.com/badges/c2fb7492-fff8-4a91-8673-fc3281984735"><i class="fa-solid fa-id-badge"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <p>Copyright <span>&copy;2023PROGR-ME</span> | Coded and Designed by Hubert ATSOU</p>
+                <p>All Rights Resrved</p>
+            </div>
+            
+        </footer>
+        
+</body>
+</html>
